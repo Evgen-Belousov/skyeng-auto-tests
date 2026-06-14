@@ -13,14 +13,14 @@
 python3 -m venv venv
 source venv/bin/activate
 ### 2. Установить зависимости
-```bash
+bash
 pip install selenium webdriver-manager
 ### 3. Запустить тест
-```bash
+bash
 python3 test_link_new_tab.py
-### Результат
+###Результат
 Тест падает с ошибкой: ❌ Новая вкладка не открылась
-### Артефакты
+###Артефакты
 https://yozhka.lukit.ru/workspace/UDRAB6/project/KURSOVAYA/board/UDRAB6-13
 Лог выполнения:
 1. Открываем страницу логина...
